@@ -1,0 +1,153 @@
+body{
+background-color:black;
+padding-left:2vw;
+padding-right:2vw;
+}
+.heading{
+color:white;
+font-size:3vw;
+font-family: Raleway;
+Font-weight:-5vw;
+}
+.text{
+color:white;
+font-size:1vw;
+font-family: Raleway;
+Font-weight:-5vw;
+}
+.grid-container{
+display:grid;
+grid-template-areas:"a1 a1 a2 a2"
+                    "b1 b2 b3 b4"
+                    "c1 c1 c2 c2"
+                    "d1 d1 d3 d4";
+grid-gap:2vw;
+/* height:100vw;width:100vw; */
+}
+/* .grid-item{
+display:inline-grid;
+} */
+.grid-item1{
+    grid-area:a1;
+}
+.grid-item2{
+    grid-area:b1;
+}
+.grid-item3{
+    grid-area:b2;
+}
+.grid-item4{
+    grid-area:d1;
+}
+.hed{
+color:white;
+font-size:3vw;
+font-family: Raleway;
+Font-weight:-5vw;
+font-style: italic;
+}
+.grid-item5{
+    grid-area:a2;
+}
+.grid-item6{
+    grid-area:b3;
+}
+.grid-item7{
+    grid-area:b4;
+}
+.grid-item8{
+    grid-area:c2;
+}
+.grid-item9{
+    grid-area:d3;
+}
+.grid-item10{
+    grid-area:d4;
+}
+.grid-container2{
+    display:grid;
+    grid-template-areas:"Q1 Q2 Q3 Q3 Q3 Q3"
+                        "Q1 R1 R2 R3 R3 R3"
+                        "Q1 S1 R2 S3 S3 S4"
+                        "Q1 T1 R2 T3 T3 T3"
+                        "Q1 T1 R2 U1 U2 U2"
+                        "Q1 T1 R2 U1 V3 V4";
+    grid-gap:2vw;
+    /* height:100vw;width:100vw; */
+    background-color:white;
+    font-family:raleway;
+    width:100%
+    }
+.parent-item1{
+    grid-area:Q1;
+    color:pink;
+    font-family:Raleway;
+    font-size:2vw;
+    transform-origin: 0 0;
+    transform:rotate(-90deg);
+}
+.parent-item2{
+    grid-area:Q2;
+    font-family:Raleway;
+    font-size:2vw;
+    -webkit-text-stroke-color:pink;
+    -webkit-text-fill-color:white;
+    -webkit-text-stroke-width:0.05vw;
+}
+ .parent-item3{
+    grid-area:R1;
+    font-family:Raleway;
+    font-size:1vw;
+    /* color:pink; */
+}
+.parent-item4{
+    grid-area:S1;
+    border-color:pink;
+    border-style:solid;
+    border-width:0.5vw;
+}
+
+.parent-item5{
+    grid-area:T1;
+}
+.parent-item6{
+    grid-area:Q3;
+}
+.parent-item7{
+    grid-area:R2;
+}
+.parent-item8{
+    grid-area:R3;
+}
+.parent-item9{
+    grid-area:S3;
+    border-color:pink;
+    border-style:solid;
+    border-width:0.5vw;
+    background-color:pink;
+}
+.parent-item10{
+    grid-area:S4;
+}
+.parent-item11{
+    grid-area:T3;
+    border-color:pink;
+    border-style:solid;
+    border-width:0.5vw;
+    font-family:Trajan Pro3;
+}
+.parent-item12{
+    grid-area:U1;
+}
+.parent-item13{
+    grid-area:U2;
+}
+.parent-item14{
+    grid-area:V3;
+}
+.parent-item15{
+    grid-area:V4;
+}
+.parent-item{
+color:pink;
+}
